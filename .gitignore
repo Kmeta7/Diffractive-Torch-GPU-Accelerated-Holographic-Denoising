@@ -1,0 +1,22 @@
+# virtual environments
+venv/
+.venv/
+
+# python
+__pycache__/
+*.py[cod]
+
+# pytorch
+*.pt
+*.pth
+
+# numpy / scipy
+*.npy
+*.npz
+
+# jupyter
+.ipynb_checkpoints/
+
+# system
+.DS_Store
+Thumbs.db
