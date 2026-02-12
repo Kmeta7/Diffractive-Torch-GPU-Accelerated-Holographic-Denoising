@@ -8,7 +8,10 @@ device = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
 #print cuda device info:
 if device.type == "cuda":
     print(f"Using CUDA device: {torch.cuda.get_device_name(device)}")
-#device = torch.device("cpu")
+
+# cuda device 1 is the 7900xtx card
+# cuda device 0 is the 9060xt card
+
 # --- experiment params (set your real ones) ---
 d = 0.34             # meters
 wavelength = 532e-9  # meters
